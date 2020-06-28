@@ -1,0 +1,97 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+#all {
+  font-family: "Megrim", cursive;
+  color: #ffffff;
+  font-size: medium;
+}
+#name {
+  font-family: "Megrim", cursive;
+  color: #854343;
+  font-size: xx-large;
+}
+#job {
+  font-family: "Kodchasan", sans-serif;
+  color: #8a8a8a;
+  font-size: large;
+}
+
+#aboutme {
+  color: #854343;
+  font-family: "Megrim", cursive;
+}
+#paragraph {
+  font-family: "Kodchasan", sans-serif;
+  font-size: large;
+  color: white;
+}
+#darth {
+  color: #8a8a8a;
+  font-family: "Hanalei Fill", cursive;
+  font-size: x-large;
+}
+
+#intrests {
+  font-family: "Kodchasan", sans-serif;
+  font-size: x-large;
+  color: white;
+}
+#percentage {
+  color: #854343;
+}
+#examples {
+  color: #854343;
+  font-family: "Kodchasan", sans-serif;
+  font-size: xx-large;
+}
+
+#hobbies {
+  color: white;
+  font-family: "Kodchasan", sans-serif;
+  font-size: large;
+}
+#singer {
+  color: white;
+  font-family: "Kodchasan", sans-serif;
+  font-size: large;
+}
+#englishsong {
+  color: #8a8a8a;
+  font-family: "Kodchasan", sans-serif;
+  font-size: x-large;
+}
+#songname {
+  color: #854343;
+  font-family: "Rakkas", cursive;
+  font-size: x-large;
+}
+#movies {
+  color: #8a8a8a;
+  font-family: "Kodchasan", sans-serif;
+  font-size: x-large;
+}
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 120px;
+  background: rgb(53, 43, 43);
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+  margin-left: 120px;
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
+}
